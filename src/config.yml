@@ -1,0 +1,68 @@
+# Welcome to the Configuration file for When Day Breaks
+
+affected_world: "world"
+
+sunlight:
+    starting:
+        damage: 1.0
+        seconds: 5
+    min-max:
+        seconds: 1
+        damage: 5
+blocks:
+    allow_all_glass: false
+    allow_black_glass: true
+helmet:
+    active: true
+    share_same_starting: false
+    starting:
+        damage: 2
+        seconds: 4
+    unbreaking_affectiveness: true
+healing:
+    deny-nat-regen: true
+    deny-heal-from-gapple: true 
+    deny-healing-potions: false
+    medkits:
+       allowed: true
+       usage-time: 5
+       health-grant: 8
+       revokes-bleeding: true
+       pauses-bleeding: false
+    bandages:
+       allowed: true
+       usage-time: 2
+       health-grant: 4
+       revokes-bleeding: false
+       pauses-bleeding: true  
+daylight-cycle:
+   changed: true
+   clocks-tell-time: true       
+   day-time: 15
+   night-time: 15
+sleeping:
+    allowed-anytime: true
+    time-between-each: 17
+    progression: 10
+    damaged:
+       allowed: true
+       health-grant: 2
+       hunger-revoke: 10
+       sleepy: true
+       bleeding-reduction: true
+additional-items:
+    curing-seeds: true
+    cured-rotten-flesh: true
+    cooked-cured-rotten-flesh: true
+    cooked-bread: true
+    smoked-bread: true
+events:
+    its-safe-for-now:
+        name: "It's Safe, for now"
+        chance: 7.5
+    sun-deadly-laser:
+        name: "The Sun is a Deadly Laser"
+        chance: 7.5
+    sender-somewhere:
+        name: "The Sender from Somewhere Else"
+        chance: 10
