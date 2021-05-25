@@ -44,11 +44,11 @@ sleeping:
     allowed-anytime: true
     time-between-each: 17
     progression: 10
+    sleepy: true
     damaged:
        allowed: true
        health-grant: 2
        hunger-revoke: 10
-       sleepy: true
        bleeding-reduction: true
 additional-items:
     curing-seeds: true
